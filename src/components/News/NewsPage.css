@@ -1,0 +1,42 @@
+/*****************************/
+.NewsPageContainer {
+  margin: 0;
+}
+
+.NewsMiddleWrap {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.ExploreNewsCard {
+  margin: 10px 0;
+}
+
+/* .NewsNavBar {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
+
+/*****************************/
+
+.NewsLeftNavIcons {
+  display: flex;
+  flex-direction: column;
+  /* width: 100%;
+  justify-content: center;
+  align-items: center; */
+}
+.IconsLeft {
+  /* display: flex;
+  flex-direction: row; */
+  margin-top: 30px;
+  margin-left: 20px;
+}
+.IconsLeft:hover {
+  cursor: pointer;
+}
